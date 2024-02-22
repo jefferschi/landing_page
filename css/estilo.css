@@ -1,0 +1,297 @@
+body{
+    background-color: black;
+    padding-top: 1rem;
+    margin-top: 1rem;
+
+    /*
+    padding-top: 10px;
+    margin-top: 10px;
+    */
+}
+
+#titulo {
+    border-radius: 15px;
+    width: 90%;
+    background-color: #cc9900;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%; 
+    
+}
+#titulo > :last-child{
+    /* permite que a margem do item anterior seja manipulada. Isso removerá qualquer espaço em branco entre o último elemento  */
+    padding-bottom: 1rex;
+    margin-bottom: 0;
+    /*
+    padding-bottom: 15px;
+    */
+}
+
+.main h1{
+    font-family: Berlin Sans FB;    
+    font-size: 5cqmax;
+    margin-bottom: 0;  
+    padding-top: 15px;
+    margin-top: 5px;
+    padding-bottom: 0;
+
+}
+.main h2{    
+    font-family: Century Schoolbook;
+    font-size: 4cqmax;    
+    margin-top: 0;
+    padding-top: 0;    
+    
+}
+
+.main h3{
+    color: #cc9900;
+    text-align: center;
+    font-family: Calibri (Corpo);
+    font-size: 2.5cqmax;    
+    margin-top: 5px;
+    padding-top: 5px;    
+}
+
+.texto-esquerda{
+    color: #f7e34f;
+    padding-top: 30px;
+    padding-left: 3cqmax;
+    margin-left: 3cqmax;
+    font-family:  Calibri (Corpo);
+    font-size: 3cqmax;
+}
+
+.texto-centralizado{
+    color: #f7e34f;
+    text-align: center;
+    padding-inline: 10cqmax;
+    font-family: tahoma;
+    font-size: 2.5cqmax;
+}
+
+.banner {
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;    
+    padding-top: 0;    
+    padding-bottom: 0;
+    background-color: #cc9900;
+    text-align: center;
+    font-family: Century;
+    font-size: 3.5cqmax;
+    font-weight: bold;
+}
+
+.banner p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.texto-justificado {
+    font-family: tahoma;
+    text-align: justify;
+    color: #f7e34f;
+    margin-left: 5%;
+    margin-right: 5%;      
+    font-size: 2.8cqmax;
+}
+
+.banner-branco {
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;            
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+    text-align: center;
+    font-family: Century;
+    font-size: 3.5cqmax;
+    font-weight: bold;
+}
+
+.banner-branco p {
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+.banner-branco a {
+    text-decoration: none;
+    color: black;
+}
+
+.texto-centralizado-segoe{
+    color: #f7e34f;
+    text-align: center;
+    padding-inline: 100px;  
+    font-family: Segoe Print;
+    font-size: 3cqmax;
+}
+
+.lista{
+    color: #f7e34f;  
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 2cqmax;
+    font-family: tahoma;
+}
+.lista ul {
+    list-style-type: none;    
+}
+
+.texto-esquerda-lista{
+    color: #cc9900;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 2cqmax;
+    font-family: tahoma;
+}
+.texto-esquerda-lista ul{
+    list-style-type: none;    
+
+}
+
+.texto-centralizado-branco{
+    color: white;
+    text-align: center;
+    padding-inline: 10%;    
+    font-family: tahoma;
+    font-size: 3cqmax;
+}
+
+.texto-amarelo{
+    color: #f7e34f;
+}
+
+.videos{    
+    
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0%;
+}
+
+.videos ul{ 
+    column-count: 2;    
+    list-style-type: none;      
+}
+
+.videos li{
+    padding-bottom: 10px;
+    padding-right: 10%;
+    padding-left: 5%;
+    text-align: center;    
+}
+
+.videos iframe{
+    width: 100%;
+    height: 100%;   
+}
+
+.consultores{
+    column-count: 2;   
+}
+
+.consultores p{
+    color: #cc9900;
+    margin-top: 0;
+    margin-right: 30%;
+    font-family: tahoma;
+    font-size: 1.8cqmax;
+    text-align: justify;
+}
+
+.consultores img{
+    padding-left: 10%;
+    width: 70%;        
+       
+}
+
+.logo{
+    text-align: center;    
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.logo img{
+    width: 15%;
+    height: 15%;
+}
+
+.banner-menor {
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 70%;    
+    padding-top: 0;    
+    padding-bottom: 0;
+    background-color: #cc9900;
+    text-align: center;
+    font-family: Century;
+    font-size: 3.5cqmax;
+    font-weight: bold;
+}
+
+.texto-esquerda span{
+    font-size: 2.2cqmax;    
+}
+
+.img-equipe{    
+   text-align: center;
+}
+
+.img-equipe img{
+    width: 50%;    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.localizacao{
+    column-count: 2;
+}
+
+.localizacao h3{
+    text-align: center;
+    color: white;
+    font-size: 2.5cqmax;
+    margin-top: 0%;
+}
+.localizacao p{
+    text-align: center;
+    color: #f7e34f;
+    font-size: 1.8cqmax;
+    padding-bottom: 5%;
+}
+.localizacao img{
+    margin-left: 20%;
+    width: 70%;    
+}
+
+.logo-grande{
+    text-align: center;        
+}    
+
+.logo-grande img{    
+    padding-top:5%;    
+    margin-top: 0;
+    width: 35%;    
+}
+
+.final h3{
+    color: #cc9900;        
+    padding-left: 3cqmax;
+    margin-left: 3cqmax;
+    font-family:  Calibri (Corpo);
+    font-size: 4cqmax;
+}
+
+.final p{
+    color: #f7e34f;
+    padding-top: 30px;
+    padding-left: 3cqmax;
+    margin-left: 3cqmax;
+    font-family:  Calibri (Corpo);
+    font-size: 2.5cqmax;
+}
